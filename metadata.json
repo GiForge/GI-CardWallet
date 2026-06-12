@@ -1,0 +1,6 @@
+{
+  "name": "Smart Wallet Elite",
+  "description": "Portafoglio tessere fedeltà nativo in Jetpack Compose con scansione automatica standard e backup JSON.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Card 1 (Back) Drop Shadow -->
+    <path
+        android:pathData="M 28,29 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 34 c 0,-3 2,-5 5,-5 Z"
+        android:fillColor="#40000000" />
+
+    <!-- Card 1 (Back) -->
+    <path
+        android:pathData="M 28,26 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 31 c 0,-3 2,-5 5,-5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="26"
+                android:endX="80"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#211F41" />
+                <item android:offset="1.0" android:color="#0F0C24" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Card 1 Highlight Outline -->
+    <path
+        android:pathData="M 28,26 h 52 c 3,0 5,2 5,5 v 32"
+        android:strokeWidth="1"
+        android:strokeColor="#33FFFFFF" />
+
+    <!-- Card 2 (Middle) Drop Shadow -->
+    <path
+        android:pathData="M 28,38 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 43 c 0,-3 2,-5 5,-5 Z"
+        android:fillColor="#60000000" />
+
+    <!-- Card 2 (Middle) -->
+    <path
+        android:pathData="M 28,35 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 40 c 0,-3 2,-5 5,-5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="35"
+                android:endX="80"
+                android:endY="67"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6200EE" />
+                <item android:offset="1.0" android:color="#3700B3" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Card 2 Highlight Outline -->
+    <path
+        android:pathData="M 28,35 h 52 c 3,0 5,2 5,5 v 32"
+        android:strokeWidth="1"
+        android:strokeColor="#44FFFFFF" />
+
+    <!-- Card 3 (Foreground) Drop Shadow -->
+    <path
+        android:pathData="M 28,47 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 52 c 0,-3 2,-5 5,-5 Z"
+        android:fillColor="#80000000" />
+
+    <!-- Card 3 (Foreground Main) -->
+    <path
+        android:pathData="M 28,44 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 49 c 0,-3 2,-5 5,-5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="44"
+                android:endX="84"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0A9FC" />
+                <item android:offset="0.5" android:color="#A965DB" />
+                <item android:offset="1.0" android:color="#4F118A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Card 3 Inner Design Lines -->
+    <path
+        android:pathData="M28,68 Q44,48 56,60 T84,70"
+        android:strokeWidth="1.5"
+        android:strokeColor="#22FFFFFF" />
+    <path
+        android:pathData="M28,74 Q48,56 62,68 T84,76"
+        android:strokeWidth="1.0"
+        android:strokeColor="#1EFFFFFF" />
+
+    <!-- Card 3 Smart Chip -->
+    <path
+        android:pathData="M 34,50 h 10 a 1.5,1.5 0 0 1 1.5,1.5 v 6 a 1.5,1.5 0 0 1 -1.5,1.5 H 34 a 1.5,1.5 0 0 1 -1.5,-1.5 v -6 a 1.5,1.5 0 0 1 1.5,-1.5 Z"
+        android:fillColor="#FFD54F" />
+    <path
+        android:pathData="M 37,50 v 9"
+        android:strokeWidth="0.5"
+        android:strokeColor="#D84315" />
+    <path
+        android:pathData="M 41,50 v 9"
+        android:strokeWidth="0.5"
+        android:strokeColor="#D84315" />
+    <path
+        android:pathData="M 32,54 h 13"
+        android:strokeWidth="0.5"
+        android:strokeColor="#D84315" />
+
+    <!-- Card 3 Highlight Bezel / Glossy Outer Rim -->
+    <path
+        android:pathData="M 28,44 h 52 c 3,0 5,2 5,5 v 32 c 0,3 -2,5 -5,5 H 28 c -3,0 -5,-2 -5,-5 V 49 c 0,-3 2,-5 5,-5 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#50FFFFFF" />
+
+    <!-- Shiny Gloss diagonal shear / overlay -->
+    <path
+        android:pathData="M 44,44 L 84,44 L 54,76 L 28,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="44"
+                android:endX="28"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#40FFFFFF" />
+                <item android:offset="0.5" android:color="#15FFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

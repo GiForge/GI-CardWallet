@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Rich Dark Purple/Black Linear Gradient Backdrop -->
+    <path
+        android:pathData="M0,0 h108 v108 h-108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A0D2E" />
+                <item android:offset="0.5" android:color="#0F081D" />
+                <item android:offset="1.0" android:color="#030206" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Sophisticated background pattern lines -->
+    <path
+        android:pathData="M -20,20 L 128,94"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1F113D" />
+    <path
+        android:pathData="M -20,50 L 128,124"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1F113D" />
+    <path
+        android:pathData="M -20,-10 L 128,64"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1F113D" />
+    <path
+        android:pathData="M -10,-20 L 100,128"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1F113D" />
+    <path
+        android:pathData="M 20,-20 L 130,128"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1F113D" />
+</vector>
